@@ -12,11 +12,11 @@ It demonstrates how to set up a simple Node.js project using **TypeScript**, per
 ________________________________________
 🧩 **Theory: Node.js Core Concepts** 
 
-🧱  **What Is Node.js?**
+🧱  **What Is Node.js?**  
 •	Node.js is a JavaScript runtime built on Google’s V8 engine (the same engine that runs in Chrome).  
 •	It lets you run JavaScript outside the browser, mainly for backend servers, APIs, CLI tools, etc.  
 
-⚙️ **How Node.js Works** 
+⚙️ **How Node.js Works**   
 •	Node.js uses an event-driven, non-blocking I/O model.  
 •	It runs on a single thread, but handles thousands of connections using an event loop and callback queue instead of spawning threads for each request.
 ________________________________________
@@ -56,7 +56,7 @@ Let’s understand how Node.js actually runs your code — this is the foundatio
 ________________________________________
 ⚙️ **Step-by-Step Execution Flow** 
 When you run: node app.js. Here’s what happens behind the scenes:
-1. V8 Engine Parses and Executes
+1. **V8 Engine Parses and Executes**
 - Node.js runs on V8, a C++ engine that compiles JavaScript into machine code.
 - It executes synchronous code line by line, top to bottom.
   
